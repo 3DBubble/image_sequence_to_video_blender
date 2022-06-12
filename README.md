@@ -2,7 +2,7 @@
 A simple blender addon to quickly convert rendered image sequence into video
 
 
-##Installation
+## Installation
 
 - Download zip file
 - In blender, go to edit -> preferences -> addons, click install and point to downloaded zip file
