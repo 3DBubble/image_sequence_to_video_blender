@@ -4,9 +4,9 @@ bl_info = {
     "description" : "Convert rendered sequence of images to a video",
     "blender" : (3, 3, 0),
     "version" : (0, 0, 0),
-    "location" : "View3D",
+    "location" : "View3D > Sidebar",
     "warning" : "",
-    "category" : "Generic"
+    "category" : "Video Tools"
 }
 
 import os
