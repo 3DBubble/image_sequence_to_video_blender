@@ -1,2 +1,2 @@
-# image_sequence_to_video_blender
+# Image Sequence To Video Blender
 A simple blender addon to quickly convert rendered image sequence into video
