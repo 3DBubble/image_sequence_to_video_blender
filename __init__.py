@@ -71,7 +71,9 @@ class ImgSq2Vid_OT_convert_to_seq(bpy.types.Operator):
                             vid_tool.output_container,
                             vid_tool.output_quality,
                             vid_tool.encoding_speed)
-        if ret == 1:
+        if ret == 0:
+            self.report({'INFO'}, 'Done')
+        elif ret == 1:
             self.report({'OPERATOR'},'No files found at the location')
         elif ret == 2:
             self.report({'OPERATOR'}, 'Location not found')
